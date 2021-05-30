@@ -26,9 +26,15 @@ header {
 }
 
 .topHeader {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding-top: 28px;
 }
 
@@ -70,7 +76,9 @@ header {
 
 .search > hr {
   width: 28px;
-  transform:rotate(90deg);
+  -webkit-transform:rotate(90deg);
+      -ms-transform:rotate(90deg);
+          transform:rotate(90deg);
   position: absolute;
   top: 23px;
   right: 78px;
@@ -83,7 +91,8 @@ header {
   width: 20px;
   top: 14px;
   right: 20px;
-  filter: invert(42%) sepia(65%) saturate(955%) hue-rotate(188deg) brightness(100%) contrast(93%);
+  -webkit-filter: invert(42%) sepia(65%) saturate(955%) hue-rotate(188deg) brightness(100%) contrast(93%);
+          filter: invert(42%) sepia(65%) saturate(955%) hue-rotate(188deg) brightness(100%) contrast(93%);
 }
 
 .search .gMic {
@@ -94,8 +103,12 @@ header {
 }
 
 .navFloatRight {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   position: relative;
   right: -390px;
 }
@@ -151,8 +164,12 @@ a > .signInBtn {
 }
 
 .optionsMenu {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   padding: 17px 12px 11px 165px;
   font-size: 14px;
 }
@@ -186,12 +203,17 @@ a > .signInBtn {
   bottom: -5px;
   font-size: 20px;
   opacity: .8;
-  filter: grayscale(1) invert(.2);
+  -webkit-filter: grayscale(1) invert(.2);
+          filter: grayscale(1) invert(.2);
 }
 
 .optionsMenu2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 
 .hrLine {
@@ -240,7 +262,9 @@ a > .signInBtn {
 }
 
 .relatedListGrid {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 320px 15px 320px;
   grid-template-columns: 320px 320px;
   gap: 15px;
   row-gap: 10px;
@@ -251,9 +275,15 @@ a > .signInBtn {
   background: #F1F3F4;
   width: 320px;
   min-height: 48px;
-  align-items:center;
+  -webkit-box-align:center;
+      -ms-flex-align:center;
+          align-items:center;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: left;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
   border-radius: 100px;
   padding: 0 15px;
   position: relative;
@@ -278,9 +308,15 @@ a > .signInBtn {
 }
 
 .gLogoBottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-left: 150px;
 }
 
@@ -299,15 +335,23 @@ a > .signInBtn {
 }
 
 .gLogoBottom .material-icons {
-  transform: translateY(-8px);
+  -webkit-transform: translateY(-8px);
+      -ms-transform: translateY(-8px);
+          transform: translateY(-8px);
   margin-left: 10px;
   color: #1A0DAB;
 }
 
 .pageListNumbers {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-left: 187px;
 }
 
